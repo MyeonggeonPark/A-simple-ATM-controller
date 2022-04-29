@@ -68,11 +68,11 @@ class Controller:
 #test bank account
 test_bank = Bank()
 #one
-test_bank.add_entry(11111111,'0000',1123,100000)
+test_bank.add_entry(11111111,'1111',1123,100000)
 test_bank.add_account(11111111,1234,200000)
 test_bank.add_account(11111111,1345,300000)
 #two
-test_bank.add_entry(22222222,'0000',2123,100000)
+test_bank.add_entry(22222222,'2222',2123,100000)
 test_bank.add_account(22222222,2234,200000)
 test_bank.add_account(22222222,2345,300000)
 
